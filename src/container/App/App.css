@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+.bg-image {
+    background-image: url(/public/images/pexels-david-mcbee-730564.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
