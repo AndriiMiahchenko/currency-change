@@ -19,7 +19,7 @@ const ProductListItem = ({
     addProductToCart,
     changeCourse,
 }: ProductProps) => {
-    const [count, setCount] = useState<number>(1)
+    const [count] = useState<number>(1)
     return (
         <Card>
             <CardContent>
